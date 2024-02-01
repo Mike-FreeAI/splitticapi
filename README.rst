@@ -75,7 +75,7 @@ Example
 
        # Generate an image synchronously
        diffusion_module = DiffusionModule(api_key)
-       diffusion_module.generate()
+       diffusion_module.generate("cat")
 
    # Run the program
    if __name__ == "__main__":
